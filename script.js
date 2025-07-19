@@ -1,7 +1,5 @@
-// 할 일 목록을 저장할 배열
 let tasks = [];
 
-// 저장된 목록 불러오기
 window.onload = function () {
   const saved = localStorage.getItem("tasks");
   if (saved) {
